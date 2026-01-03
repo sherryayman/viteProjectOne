@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+@import "tailwindcss";
+
+.nagy{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.nagy:hover{
+    border-bottom: 1px solid;
+}
+@theme {
+  --font-cursive: "Edu NSW ACT Cursive", cursive;
+  --font-serif: "Bree Serif", serif;
+}
+.sides :hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.categ:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  -webkit-transition: transform 0.3s ease, background-color 0.3s ease;
+  -moz-transition: transform 0.3s ease, background-color 0.3s ease;
+  -ms-transition: transform 0.3s ease, background-color 0.3s ease;
+  -o-transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.allpage{
+  background-color: #F4F2EE;
+}
+.meal:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
