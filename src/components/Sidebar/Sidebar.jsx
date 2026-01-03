@@ -5,7 +5,7 @@ export default function Sidebar() {
   return <>
     <div className=''>
       <img src="../../../public/imgs/logo-BfNap0Pe.png" className='w-50' alt="" />
-      <NavLink to="/" className="sides">
+      <NavLink to="/viteProjectOne" className="sides">
   <div className='shadow-md shadow-orange-300 bg-orange-400 my-3 text-white w-55 px-2 py-1 mx-auto rounded'>
     <i className="fa-solid fa-utensils me-1.5"></i>
     <span className='font-cursive font-semibold'>Meals</span>

@@ -68,7 +68,7 @@ export default function Home() {
       {meal.strArea}
       </>) : null}
       </p>
-    <button onClick={() => navigate(`/meal/${meal.idMeal}`)} className="bg-green-500 text-white px-3 py-1 rounded-full hover:bg-green-600 transition font-cursive text-sm mt-3">
+    <button onClick={() => navigate(`/viteProjectOne/meal/${meal.idMeal}`)} className="bg-green-500 text-white px-3 py-1 rounded-full hover:bg-green-600 transition font-cursive text-sm mt-3">
       View Recipe
     </button>
   </div>

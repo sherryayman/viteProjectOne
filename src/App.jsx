@@ -11,10 +11,10 @@ import Meals from './components/Meals/Meals'
 
 function App() {
   let route=createBrowserRouter([
-    {path:'', element:<Layout/>, children:[
+    {path:'/viteProjectOne', element:<Layout/>, children:[
       {index:true,element:<Home/>},
-      {path:'/meal/:id',element:<Meals/>},
-      {path:'*',element:<Notfound/>}
+      {path:'/viteProjectOne/meal/:id',element:<Meals/>},
+      {path:'/viteProjectOne/*',element:<Notfound/>}
     ]}
   ])
   return <>
