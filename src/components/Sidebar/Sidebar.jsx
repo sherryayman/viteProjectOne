@@ -1,10 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from '../../../public/imgs/logo-BfNap0Pe.png'
 
 export default function Sidebar() {
   return <>
     <div className=''>
-      <img src="../../../public/imgs/logo-BfNap0Pe.png" className='w-50' alt="" />
+      <img src={logo} className='w-50' alt="" />
       <NavLink to="/viteProjectOne" className="sides">
   <div className='shadow-md shadow-orange-300 bg-orange-400 my-3 text-white w-55 px-2 py-1 mx-auto rounded'>
     <i className="fa-solid fa-utensils me-1.5"></i>

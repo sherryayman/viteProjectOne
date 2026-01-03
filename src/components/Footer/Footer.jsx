@@ -1,5 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import logo from '../../../public/imgs/logo-BfNap0Pe.png'
 export default function Footer() {
   return <>
  <div className="fixed bottom-0 w-full bg-white">
@@ -7,7 +8,7 @@ export default function Footer() {
     <div className=" flex justify-between items-center">
         <div className="left flex items-center">
         
-            <img src="../../../public/imgs/logo-BfNap0Pe.png" className='w-15' alt="" />
+            <img src={logo} className='w-15' alt="" />
             <span className='font-semibold font-cursive'>Recipe</span>
        
         </div>
